@@ -23,6 +23,41 @@
         </nav>
     </header>
     <br>
+    <h1>FORMULARIO:</h1>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Formulario de Contacto:</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="Apellido">
+        <br>
+        <label for="correo">E-mail:</label>
+        <input type="email" name="correo" id="correo">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="18" max="45">
+        <br>
+        <label for="fecnac">Fecha De Nacimiento:</label>
+        <input type="date" name="fecnac" id="fecnac">
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="number" name="telefono" id="telefono">
+        <label for=" ">Genero:</label>
+        <select name="genero" id="genero">
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+            <option value="3">Trans</option>
+            <option value="4">Otro</option>
+        </select>
+        <br>
+        <label for="consulta">Consulta:</label>
+        <br>
+        <textarea name="consulta" id="consulta" cols="30" rows="15"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
     <br>
     <footer>
         <div class="footer-container">
