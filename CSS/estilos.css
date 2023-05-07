@@ -40,7 +40,6 @@ a:hover{
     padding: 5px;
     transition-duration: 0.5s;
 }
-<<<<<<< HEAD
 
 .pie{
     padding: 20px;
@@ -49,7 +48,6 @@ a:hover{
     border: 2px double aqua;
     font-family: verdana;
     background-color: white;
-
     display: grid;
     grid-template-rows: repeat(auto-fit,minmax(min(100px,100%),1fr));
 }
@@ -60,5 +58,3 @@ a:hover{
     gap: 20px;
     grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
 }
-=======
->>>>>>> 45d52be5dfbbd5ebc25fccbd840ecf7b22d7ec5a
