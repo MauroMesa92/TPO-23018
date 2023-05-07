@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>titulo de la pagina</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>LOGO</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <h1>FORMULARIO:</h1>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Formulario de Contacto:</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="Apellido">
+        <br>
+        <label for="correo">E-mail:</label>
+        <input type="email" name="correo" id="correo">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="18" max="45">
+        <br>
+        <label for="fecnac">Fecha De Nacimiento:</label>
+        <input type="date" name="fecnac" id="fecnac">
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="number" name="telefono" id="telefono">
+        <label for=" ">Genero:</label>
+        <select name="genero" id="genero">
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+            <option value="3">Trans</option>
+            <option value="4">Otro</option>
+        </select>
+        <br>
+        <label for="consulta">Consulta:</label>
+        <br>
+        <textarea name="consulta" id="consulta" cols="30" rows="15"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    <br>
+    <footer>
+        <div class="footer-container">
+            <div class="company-info">
+                <h3>NOMBRE DE LA EMPRESA</h3>
+                <p>DIRECCIÓN DE LA EMPRESA</p>
+                <p>TELÉFONO: 123-456-7890</p>
+                <p>CORREO ELECTRÓNICO: info@empresa.com</p>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f">Facebook</i></a>
+                <a href="#"><i class="fab fa-twitter">Twitter</i></a>
+                <a href="#"><i class=" fab fa-instagram">Instagram</i></a>
+                <a href="#"><i class="fab fa-linkedin-in">Linkedin</i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 NOMBRE DE LA EMPRESA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
