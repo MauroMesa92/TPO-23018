@@ -1,13 +1,19 @@
-h1{
-    color: blue;
+.maqueta{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    
+    
+   
 }
-body{
-background-image: url(/img/realidad_extendida.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+body {
+    background-image: url(https://www.muycomputerpro.com/wp-content/uploads/2019/10/realidad_extendida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,44 +23,49 @@ nav{
     font-weight: bold;
 }
 
-h1{
-    color: aqua;
+h1 {
+    color: rgb(0, 170, 255);
     font-size: 40px;
 }
 
-ul li{
+ul li {
     display: inline-block;
     padding: 10px 20px;
 }
 
-a{
+a {
     color: white;
     font-size: 30px;
     text-decoration: none;
 }
 
-a:hover{
-    color: aqua;
+a:hover {
+    color: rgb(0, 170, 255);
     border-radius: 20px;
     border: solid;
     padding: 5px;
     transition-duration: 0.5s;
 }
 
-.pie{
+.pie {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    border: 2px double aqua;
+    border: 2px double rgb(0, 170, 255);
     font-family: verdana;
-    background-color: white;
+    background-color: rgb(0, 170, 255 ,30%);
     display: grid;
-    grid-template-rows: repeat(auto-fit,minmax(min(100px,100%),1fr));
+    justify-content: end;
+    grid-template-rows: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
 }
-.redes{
+
+.redes {
     color: whitesmoke;
     display: flex;
-    justify-content: flex-start ;
+    justify-content: flex-start;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.company-info{
+    color: #121111;
 }
