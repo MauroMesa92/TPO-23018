@@ -9,74 +9,83 @@
     <title>titulo de la pagina</title>
 </head>
 
-<body>
+<body class="fondo">
+    <div class="maqueta">
+        <header>
+            <nav>
+                <h1>LOGO</h1>
+                <ul>
+                    <li><a href="index.html" class="nav">Inicio</a></li>
+                    <li><a href="productos.html" class="nav">Productos</a></li>
+                    <li><a href="nosotros.html" class="nav">Nosotros</a></li>
+                    <li><a href="contacto.html" class="nav">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <header>
-        <nav>
-            <h1>LOGO</h1>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
-    <h1>FORMULARIO:</h1>
-        <form action="" method="POST">
-            <fieldset>
-                <legend>Formulario de Contacto:</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="Apellido">
-        <br>
-        <label for="correo">E-mail:</label>
-        <input type="email" name="correo" id="correo">
-        <label for="edad">Edad:</label>
-        <input type="number" name="edad" id="edad" min="18" max="45">
-        <br>
-        <label for="fecnac">Fecha De Nacimiento:</label>
-        <input type="date" name="fecnac" id="fecnac">
-        <br>
-        <label for="telefono">Telefono:</label>
-        <input type="number" name="telefono" id="telefono">
-        <label for=" ">Genero:</label>
-        <select name="genero" id="genero">
-            <option value="1">Hombre</option>
-            <option value="2">Mujer</option>
-            <option value="3">Trans</option>
-            <option value="4">Otro</option>
-        </select>
-        <br>
-        <label for="consulta">Consulta:</label>
-        <br>
-        <textarea name="consulta" id="consulta" cols="30" rows="15"></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
-            </fieldset>
-        </form>
-    <br>
-    <footer>
-        <div class="pie">
-            <div class="company-info">
-                <h3>NOMBRE DE LA EMPRESA</h3>
-                <p>DIRECCIÓN DE LA EMPRESA</p>
-                <p>TELÉFONO: 123-456-7890</p>
-                <p>CORREO ELECTRÓNICO: info@empresa.com</p>
-                <p>&copy; 2023 NOMBRE DE LA EMPRESA. Todos los derechos reservados.</p>
-            </div>
-            <div class="redes">
-                <a href="#"><img src="ico/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="ico/whatsapp.png" alt="whatsapp"></a>
-                <a href="#"><img src="ico/instagram.png" alt="instagram"></a>
-                <a href="#"><img src="ico/twitter.png" alt="twitter"></a>
-            </div>
+        <main>
+            <section>
+                <article>
+                    <br>
+                    <h1>FORMULARIO:</h1>
+                    <form action="" method="POST">
+                        <fieldset>
+                            <legend>Formulario de Contacto:</legend>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="Apellido">
+                            <br>
+                            <label for="correo">E-mail:</label>
+                            <input type="email" name="correo" id="correo">
+                            <label for="edad">Edad:</label>
+                            <input type="number" name="edad" id="edad" min="18" max="45">
+                            <br>
+                            <label for="fecnac">Fecha De Nacimiento:</label>
+                            <input type="date" name="fecnac" id="fecnac">
+                            <br>
+                            <label for="telefono">Telefono:</label>
+                            <input type="number" name="telefono" id="telefono">
+                            <label for=" ">Genero:</label>
+                            <select name="genero" id="genero">
+                                <option value="1">Hombre</option>
+                                <option value="2">Mujer</option>
+                                <option value="3">Trans</option>
+                                <option value="4">Otro</option>
+                            </select>
+                            <br>
+                            <label for="consulta">Consulta:</label>
+                            <br>
+                            <textarea name="consulta" id="consulta" cols="30" rows="15"></textarea>
+                            <br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </fieldset>
+                    </form>
+                    <br>
 
-    </footer>
+                </article>
+            </section>
+        </main>
 
+        <footer>
+            <div class="pie">
+                <div class="company-info">
+                    <h3>NOMBRE DE LA EMPRESA</h3>
+                    <p>DIRECCIÓN DE LA EMPRESA</p>
+                    <p>TELÉFONO: 123-456-7890</p>
+                    <p>CORREO ELECTRÓNICO: info@empresa.com</p>
+                    <p>&copy; 2023 NOMBRE DE LA EMPRESA. Todos los derechos reservados.</p>
+                </div>
+                <div class="redes">
+                    <a href="#"><img src="ico/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="ico/whatsapp.png" alt="whatsapp"></a>
+                    <a href="#"><img src="ico/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="ico/twitter.png" alt="twitter"></a>
+                </div>
+
+        </footer>
+    </div>
 </body>
 
 </html>
